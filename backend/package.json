@@ -1,0 +1,28 @@
+{
+  "name": "zeply-btc-explorer-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Server for Zeply BTC Explorer using MERN",
+  "author": "Santiljano Malaj",
+  "email": "ictirana18@gmail.com",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-favicon": "^2.0.4",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-validator": "^6.14.3",
+    "mongoose": "^6.9.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "license": "MIT"
+}

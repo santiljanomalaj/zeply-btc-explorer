@@ -1,0 +1,16 @@
+{
+  // @author Santiljano Malaj
+  // @email ictirana18@gmail.com
+  // @company zeply.com
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Zeply Challenge Server",
+      "runtimeVersion": "18.12",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\backend\\server.js"
+    }
+  ]
+}
